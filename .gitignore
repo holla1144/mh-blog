@@ -35,3 +35,5 @@
 log
 log/.keep
 tmp/.keep
+
+/db/*
