@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <%= render 'layouts/head' %>
-  <body>
-    <%= yield %>
+  <body class="Grid">
+    <%= render 'layouts/header' %>
+    <main class="Grid-mainContainer">
+      <%= yield %>
+    </main>
   </body>
 </html>
