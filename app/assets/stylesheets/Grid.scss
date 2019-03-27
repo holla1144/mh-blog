@@ -1,0 +1,9 @@
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  &-mainContainer {
+    grid-column-start: 3;
+    grid-column-end: 11;
+  }
+}
