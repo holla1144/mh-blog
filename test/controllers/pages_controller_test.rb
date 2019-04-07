@@ -14,7 +14,7 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select 'title', text: base_title
   end
-  #
+
   test "should get contact" do
     get contact_path
     assert_response :success
