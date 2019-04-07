@@ -3,6 +3,7 @@ class PagesController < ApplicationController
   end
 
   def landing
+    @post = Post.last
   end
 
   def contact
