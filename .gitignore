@@ -37,3 +37,6 @@ log/.keep
 tmp/.keep
 
 /db/*
+
+config/secrets.yml
+/config/secrets.yml
