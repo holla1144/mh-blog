@@ -1,0 +1,9 @@
+<%= form_for(@post, html: {class: 'Form'}) do |f| %>
+  <%= f.label :title, class: 'Form-label' %>
+  <%= f.text_field :title %>
+  <%= f.label :body, class: 'Form-label' %>
+  <%= f.text_area :body, class: 'Form-textArea Form-textArea--100pct' %>
+  <%= f.label :draft, "Save as draft", class: 'Form-label Form-label--inline' %>
+  <%= f.check_box :draft %>
+  <%= f.submit "Publish", class: 'Form-submitBtn' %>
+<% end %>
