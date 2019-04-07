@@ -1,0 +1,32 @@
+.Form {
+  &-textField {
+    border-radius: 5px;
+    display: block;
+  }
+
+  &-textArea {
+    border-radius: 5px;
+    display: block;
+    height: 200px;
+    resize: none;
+
+    &--100pct {
+      width: 100%;
+    }
+  }
+
+  &-label {
+    display: block;
+    font-size: 1.3em;
+    line-height: 2;
+
+    &--inline {
+      display: inline;
+    }
+  }
+
+  &-submitBtn {
+    display: block;
+    margin: 10px 0;
+  }
+}
